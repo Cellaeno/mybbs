@@ -1,0 +1,113 @@
+[ 2019-04-15T16:17:02+08:00 ] 127.0.0.1 /index.php?m=admin&c=post&a=index
+ERR: syntax error, unexpected ')'
+
+[ 2019-04-15T16:18:00+08:00 ] 127.0.0.1 /index.php?m=admin&c=post&a=index
+ERR: syntax error, unexpected ')'
+
+[ 2019-04-15T16:18:00+08:00 ] 127.0.0.1 /index.php?m=admin&c=post&a=index
+ERR: syntax error, unexpected ')'
+
+[ 2019-04-15T16:18:01+08:00 ] 127.0.0.1 /index.php?m=admin&c=post&a=index
+ERR: syntax error, unexpected ')'
+
+[ 2019-04-15T16:18:01+08:00 ] 127.0.0.1 /index.php?m=admin&c=post&a=index
+ERR: syntax error, unexpected ')'
+
+[ 2019-04-15T16:18:01+08:00 ] 127.0.0.1 /index.php?m=admin&c=post&a=index
+ERR: syntax error, unexpected ')'
+
+[ 2019-04-15T16:18:01+08:00 ] 127.0.0.1 /index.php?m=admin&c=post&a=index
+ERR: syntax error, unexpected ')'
+
+[ 2019-04-15T16:18:01+08:00 ] 127.0.0.1 /index.php?m=admin&c=post&a=index
+ERR: syntax error, unexpected ')'
+
+[ 2019-04-15T16:18:02+08:00 ] 127.0.0.1 /index.php?m=admin&c=post&a=index
+ERR: syntax error, unexpected ')'
+
+[ 2019-04-15T16:18:08+08:00 ] 127.0.0.1 /index.php?m=admin&c=post&a=index
+ERR: syntax error, unexpected ')'
+
+[ 2019-04-15T16:43:04+08:00 ] 127.0.0.1 /index.php?m=admin&c=post&a=index
+ERR: syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+
+[ 2019-04-15T16:54:43+08:00 ] 127.0.0.1 /index.php?m=admin&c=post&a=index
+ERR: 1054:Unknown column 'title' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `bbs_cate` WHERE `title` LIKE '%天行九歌%' AND `uname` LIKE '%李白%' 
+
+[ 2019-04-15T17:01:19+08:00 ] 127.0.0.1 /index.php?m=admin&c=post&a=index
+ERR: Call to undefined function Admin\Controller\array_coulmn()
+
+[ 2019-04-15T17:02:06+08:00 ] 127.0.0.1 /index.php?m=admin&c=post&a=index
+ERR: syntax error, unexpected ';', expecting ']'
+
+[ 2019-04-15T17:02:21+08:00 ] 127.0.0.1 /index.php?m=admin&c=post&a=index
+ERR: syntax error, unexpected ';', expecting ']'
+
+[ 2019-04-15T17:02:21+08:00 ] 127.0.0.1 /index.php?m=admin&c=post&a=index
+ERR: syntax error, unexpected ';', expecting ']'
+
+[ 2019-04-15T18:39:50+08:00 ] 127.0.0.1 /index.php?m=admin&c=post&a=update
+ERR: Function name must be a string
+
+[ 2019-04-15T18:45:40+08:00 ] 127.0.0.1 /index.php?m=admin&c=post&a=update
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : UPDATE `bbs_post` SET `pid`='2',`content`='     “草帽一伙”战斗员 ，极恶的世代之一，集结 香波地群岛的十一超新星之一。悬赏金3亿2000万贝里，被称作“海贼猎人” 。是一个三刀流剑士，出生于东海的霜月村，由道场场主耕四郎亲自传授剑术，因为古伊娜的意外死亡而立志成为世界第一大剑豪，为此而努力修行。之后加入“草帽一伙” ，随着“草帽一伙”以成为世界第一大剑豪的目标旅行。' WHERE ( pid= )
+
+[ 2019-04-15T20:06:55+08:00 ] 127.0.0.1 /index.php?m=admin&post&a=reply&pid=8
+ERR: 非法操作:reply
+
+[ 2019-04-15T20:09:49+08:00 ] 127.0.0.1 /index.php?m=admin&post&a=reply&pid=8
+ERR: 非法操作:reply
+
+[ 2019-04-15T20:09:54+08:00 ] 127.0.0.1 /index.php?m=admin&post&a=reply&pid=8
+ERR: 非法操作:reply
+
+[ 2019-04-15T20:26:09+08:00 ] 127.0.0.1 /index.php?m=admin&c=reply&a=index&pid=2
+ERR: 无法加载控制器:Reply
+
+[ 2019-04-15T20:26:26+08:00 ] 127.0.0.1 /index.php?m=admin&c=reply&a=index&pid=2
+ERR: 模板不存在:./Application/Admin/View/Reply/index.html
+
+[ 2019-04-15T20:28:11+08:00 ] 127.0.0.1 /index.php?m=admin&c=reply&a=index&pid=5
+ERR: 模板不存在:./Application/Admin/View/Reply/index.html
+
+[ 2019-04-15T20:30:34+08:00 ] 127.0.0.1 /index.php?m=admin&c=reply&a=index&pid=8
+ERR: Think\Model:getFiled方法不存在！
+
+[ 2019-04-15T20:39:04+08:00 ] 127.0.0.1 /index.php?m=admin&c=reply&a=edit&rid=11
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `bbs_reply` WHERE ( pid= ) 
+
+[ 2019-04-15T20:39:24+08:00 ] 127.0.0.1 /index.php?m=admin&c=reply&a=edit&rid=11
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `bbs_reply` WHERE ( rid= ) 
+
+[ 2019-04-15T20:44:41+08:00 ] 127.0.0.1 /index.php?m=admin&c=reply&a=index
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `bbs_reply` WHERE ( pid= ) 
+
+[ 2019-04-15T20:45:40+08:00 ] 127.0.0.1 /index.php?m=admin&c=reply&a=index
+ERR: syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+
+[ 2019-04-15T20:45:44+08:00 ] 127.0.0.1 /index.php?m=admin&c=reply&a=index
+ERR: syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+
+[ 2019-04-15T20:45:46+08:00 ] 127.0.0.1 /index.php?m=admin&c=reply&a=index&pid=8
+ERR: syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+
+[ 2019-04-15T20:45:52+08:00 ] 127.0.0.1 /index.php?m=admin&c=reply&a=index
+ERR: syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+
+[ 2019-04-15T20:46:06+08:00 ] 127.0.0.1 /index.php?m=admin&c=reply&a=index&pid=8
+ERR: syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+
+[ 2019-04-15T20:46:11+08:00 ] 127.0.0.1 /index.php?m=admin&c=reply&a=index&pid=8
+ERR: syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+
+[ 2019-04-15T20:48:10+08:00 ] 127.0.0.1 /index.php?m=admin&c=reply&a=index&pid=8
+ERR: syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+
+[ 2019-04-15T20:48:13+08:00 ] 127.0.0.1 /index.php?m=admin&c=reply&a=index&pid=8
+ERR: syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)
+
